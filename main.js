@@ -61,8 +61,9 @@ button.addEventListener('click', () => {
         button.style.display = 'none';
     }
 });
+let userName = window.prompt("Enter your name");
 alert("hi") 
-alert("Crush")
+alert(userName)
 confirm("Can I have your attention for a bit?")
 alert("thank god you didn't cancel")
 confirm("Btw, how was your day? Are you doing fine lately?") 

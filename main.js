@@ -61,14 +61,17 @@ button.addEventListener('click', () => {
         button.style.display = 'none';
     }
 });
-let userName = window.prompt("Enter your name");
+let username = window.prompt("Enter Your name");
+let word = document.getElementById("name");
+word.textContent = username;
+document.getElementById("name").innerHTML = username;
 alert("hi") 
-alert(userName)
+alert(username)
 confirm("Can I have your attention for a bit?")
-alert("thank god you didn't cancel")
+alert("thanks god you didn't cancel")
 confirm("Btw, how was your day? Are you doing fine lately?") 
 alert("If not, always remember that I'm always here for you. I can cheer you up with some ice cream basta treat mo.")
-alert("Joke lang of course, Just always remember that every problem has a solution. Just don't give up, and you'll find the true value of life.")
+alert("Joke lang of course, Just always remember that every problem has a solution. Just don't give up, and you'll find the true value of living.")
 alert("btw I'm here to confess you're so ganda not only beautiful but also smart first encounter with you feels so unreal!")
 confirm("I'm shocked. I didn't know that such an impeccable girl still exists in this generation. I know you aren't perfect, but still, you never fail to amaze me. Agree kaman?")
 alert("Even though we never interact or did interact, I like you no matter what. No one can change that. Enjoy the rest and have a nice day. Just always remember to keep a smile on your face; it will make my day complete. Thank you for the time.")
